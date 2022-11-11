@@ -1,53 +1,5 @@
 @charset "UTF-8";
-/*-------------------------------------------------------------
 
-  #  Template Name: Hope – Health & Medical HTML5 Template
-  #  Author   Name: Hastech
-  #  Version: 1.0
-
--------------------------------------------------------------
-    
-  #   CSS INDEX
-========================================================
-	
-    [ 01. Imported CSS ]
-
-    [ 02. Typography CSS ]
-
-    [ 03. Common CSS ]
-
-    [ 04. Header CSS ]
-
-    [ 05. Hero slider CSS ]
-
-    [ 06 About CSS ]
-
-    [ 07 Service CSS ]
-
-    [ 08 Team CSS ]
-
-    [ 09 Brand Logo CSS ]
-
-    [ 10 Form CSS ]
-
-    [ 11 Blog CSS ] 
-
-    [ 12 Contact CSS ]
-
-    [ 13 Footer CSS ]
-
-    
------------------------------------------------------*/
-/*
-
-[ 01. Imported CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-	Imported CSS
------------------------------------------------------------------------
-*/
 @import url(https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800,900,|Libre+Baskerville:400,400i,700);
 @import url("https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import url(bootstrap.min.css);
@@ -55,16 +7,7 @@
 @import url(aos.css);
 @import url(swiper.min.css);
 @import url(plugin-collection.css);
-/*
 
-[ 02. Typography CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-  Typography CSS
------------------------------------------------------------------------
-*/
 body {
   color: #707070;
   font-size: 0.875rem;
@@ -167,16 +110,7 @@ table p {
   margin-bottom: 0;
 }
 
-/*
 
-[ 03. Common CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-  Common CSS
------------------------------------------------------------------------
-*/
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1170px;
@@ -401,7 +335,6 @@ table p {
   }
 }
 
-/*-------- Button Style Css --------*/
 .btn-theme {
   background-color: #8f1b1b;
   border-color: #8f1b1b;
@@ -621,7 +554,6 @@ table p {
   background-color: #8f1b1b;
 }
 
-/*-------- Owl Carousel Style Css --------*/
 .owl-carousel.owl-theme .owl-nav {
   margin: 0;
 }
@@ -687,7 +619,6 @@ table p {
   display: none;
 }
 
-/*-------- Page Title Style Css --------*/
 .page-title-area .page-title-content {
   letter-spacing: 0;
   padding: 60px 0;
@@ -956,7 +887,6 @@ table p {
   color: #8f1b1b;
 }
 
-/*-------- Pagination Style Css --------*/
 .pagination-area {
   padding: 82px 0 0;
 }
@@ -1027,7 +957,6 @@ table p {
   box-shadow: 0px 10px 50px 0px rgba(171, 181, 189, 0.35);
 }
 
-/*-------- Blockquote Style Css --------*/
 .blockquote-area {
   background-size: cover;
   background-repeat: no-repeat;
@@ -1068,7 +997,6 @@ table p {
   font-size: 14px;
 }
 
-/*-------- Accordian Style Css --------*/
 .accordian-content .accordion .accordion-item {
   border: none;
   margin-bottom: 30px;
@@ -1259,7 +1187,6 @@ table p {
   }
 }
 
-/*-------- Tab Style Css --------*/
 .feature-tab-content .nav.nav-tabs {
   border-bottom: none;
   margin-bottom: 41px;
@@ -1313,7 +1240,6 @@ table p {
   margin-bottom: 10px;
 }
 
-/*-------- Faq Style Css --------*/
 .faq-area .accordian-content .accordion .accordion-item {
   border: 1px solid #eaeaea;
   border-radius: 3px;
@@ -1389,7 +1315,6 @@ table p {
   padding: 4px 28px 23px 30px;
 }
 
-/*-------- Page-Not-Found Style Css --------*/
 .page-not-found-area {
   align-items: center;
   display: flex;
@@ -1495,7 +1420,6 @@ table p {
   border-left: none;
 }
 
-/*-------- Coming-Soon Style Css --------*/
 .coming-soon-area {
   background-position: top right;
   background-repeat: no-repeat;
@@ -1685,7 +1609,6 @@ table p {
   border-color: #000;
 }
 
-/*-------- Preloader Style Css --------*/
 .preloader-deactive .preloader-wrap {
   display: none;
 }
@@ -1736,7 +1659,6 @@ table p {
   }
 }
 
-/*-------- Custom Font Style Css --------*/
 .font-size-12 {
   font-size: 12px !important;
 }
@@ -1810,7 +1732,6 @@ table p {
   letter-spacing: 1px !important;
 }
 
-/*-------- Custom Color Style Css --------*/
 .bgcolor-black {
   background-color: #000 !important;
 }
@@ -2832,7 +2753,6 @@ table p {
   display: contents;
 }
 
-/*-------- Scroll To Top Style Css --------*/
 .scroll-to-top {
   background-color: #8f1b1b;
   border: none;
@@ -2902,11 +2822,6 @@ table p {
   }
 }
 
-/*
-
-[ 04. Header CSS ]
-
-*/
 .header {
   background: #8f1b1b;
 }
@@ -3228,9 +3143,6 @@ table p {
   font-size: 13px;
 }
 
-/******************************** 
-  offcanvas toggler btn
- ********************************/
 .mobile-menu-toggle svg {
   width: 50px;
   height: 50px;
@@ -3276,12 +3188,6 @@ table p {
   stroke: #000;
 }
 
-/******************************** 
-  offcanvas toggler btn END
- ********************************/
-/******************************** 
- offcanvas menu style
- ********************************/
 body.offcanvas-open {
   overflow-y: hidden;
   padding-right: 17px;
@@ -3527,9 +3433,6 @@ body.offcanvas-open {
   border-color: #6d0101 !important;
 }
 
-/******************************** 
- offcanvas menu style ENd
- ********************************/
 .hero-slider .swiper-slide {
   display: flex;
   align-items: center;
@@ -3717,21 +3620,6 @@ body.offcanvas-open {
   right: 30px;
 }
 
-/*
-
-[ 05. Hero slider CSS ]
-
-*/
-/*
-
-[ 06 About CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-	About CSS
------------------------------------------------------------------------
-*/
 .about-area {
   padding: 125px 0px;
   border-bottom: 1px solid #e5e5e5;
@@ -3942,16 +3830,6 @@ body.offcanvas-open {
   margin-bottom: 0;
 }
 
-/*
-
-[ 07 Service CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-	Service CSS
------------------------------------------------------------------------
-*/
 .static-media {
   padding-top: 90px;
 }
@@ -4003,11 +3881,6 @@ body.offcanvas-open {
   flex: 1;
 }
 
-/*
------------------------------------------------------------------------
-	Service CSS
------------------------------------------------------------------------
-*/
 .service-area {
   padding: 125px 0px;
 }
@@ -4217,16 +4090,6 @@ body.offcanvas-open {
   top: -17px;
 }
 
-/*
-
-[ 08 Team CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-	Team CSS
------------------------------------------------------------------------
-*/
 .team-area.team-default-area {
   padding: 125px 0px;
 }
@@ -4407,11 +4270,6 @@ body.offcanvas-open {
   width: 17px;
 }
 
-/*
------------------------------------------------------------------------
-	Gallery CSS
------------------------------------------------------------------------
-*/
 .gallery-item .thumb {
   position: relative;
 }
@@ -4447,11 +4305,6 @@ body.offcanvas-open {
   visibility: visible;
 }
 
-/*
------------------------------------------------------------------------
-	Pricing CSS
------------------------------------------------------------------------
-*/
 .pricing-area.pricing-default-area {
   padding: 125px 0 0;
 }
@@ -4703,11 +4556,6 @@ body.offcanvas-open {
   display: none;
 }
 
-/*
------------------------------------------------------------------------
-	Testimonial CSS
------------------------------------------------------------------------
-*/
 .testimonial-area.testimonial-default-area {
   padding: 125px 0px;
 }
@@ -4920,16 +4768,6 @@ body.offcanvas-open {
   content: "\eaca";
 }
 
-/*
-
-[ 09 Brand Logo CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-  Brand Logo CSS
------------------------------------------------------------------------
-*/
 .brand-logo-area.brand-logo-default-area {
   border-top: 1px solid #dfdfdf;
   margin-top: 75px;
@@ -4966,11 +4804,6 @@ body.offcanvas-open {
   opacity: 1;
 }
 
-/*
------------------------------------------------------------------------
-	Feature CSS
------------------------------------------------------------------------
-*/
 .feature-section {
   padding: 125px 0px 180px;
   position: relative;
@@ -5034,11 +4867,6 @@ body.offcanvas-open {
   }
 }
 
-/*
------------------------------------------------------------------------
-	Divider CSS
------------------------------------------------------------------------
-*/
 .divider-area .divider-content-area .content-inner {
   position: relative;
 }
@@ -5193,11 +5021,6 @@ body.offcanvas-open {
   width: 38%;
 }
 
-/*
------------------------------------------------------------------------
-  Icon Box CSS
------------------------------------------------------------------------
-*/
 @media only screen and (max-width: 1199px) {
   .icon-box-style {
     margin-bottom: -60px;
@@ -5276,16 +5099,6 @@ body.offcanvas-open {
   color: #000;
 }
 
-/*
-
-[ 10 Form CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-	Form CSS
------------------------------------------------------------------------
-*/
 .input-btn-group {
   align-items: center;
   background-color: #fff;
@@ -5799,11 +5612,6 @@ body.offcanvas-open {
   text-indent: 1000px;
 }
 
-/*
------------------------------------------------------------------------
-	Department CSS
------------------------------------------------------------------------
-*/
 .department-area {
   padding: 40px 0 125px;
   border-bottom: 1px solid #e5e5e5;
@@ -6560,11 +6368,6 @@ body.offcanvas-open {
   max-width: none;
 }
 
-/*
------------------------------------------------------------------------
-	Cases CSS
------------------------------------------------------------------------
-*/
 .case-item .thumb {
   margin-bottom: 30px;
 }
@@ -6632,11 +6435,6 @@ body.offcanvas-open {
   width: 14px;
 }
 
-/*
------------------------------------------------------------------------
-	Home Default CSS
------------------------------------------------------------------------
-*/
 .home-default-wrapper .accordian-content {
   padding-right: 30px;
   padding-top: 2px;
@@ -6688,16 +6486,6 @@ body.offcanvas-open {
   width: 100%;
 }
 
-/*
-
-[ 11 Blog CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-	Blog CSS
------------------------------------------------------------------------
-*/
 .blog-area.blog-default-area {
   padding: 125px 0px;
 }
@@ -7460,16 +7248,6 @@ body.offcanvas-open {
   margin-bottom: 0;
 }
 
-/*
-
-[ 12 Contact CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-	Contact CSS
------------------------------------------------------------------------
-*/
 .contact-area {
   background-color: #e9edee;
   padding: 0 0 125px;
@@ -7733,16 +7511,6 @@ body.offcanvas-open {
   width: 100%;
 }
 
-/*
-
-[ 13 Footer CSS ]
-
-*/
-/*
------------------------------------------------------------------------
-  Footer CSS
------------------------------------------------------------------------
-*/
 .footer-area {
   color: #707070;
   padding: 125px 0 0;
