@@ -4163,7 +4163,7 @@ body.offcanvas-open {
 
 .team-member .content .member-info .name {
   color: #000;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 400;
   letter-spacing: -0.25px;
   margin-bottom: 27px;
@@ -7337,16 +7337,6 @@ body.offcanvas-open {
   }
 }
 
-.contact-info-content .info-address:after {
-  background-color: #fff;
-  bottom: 8px;
-  content: "";
-  height: 3px;
-  left: 0;
-  position: absolute;
-  width: 70px;
-}
-
 .contact-info-content .info-address .title {
   color: #fff;
   display: inline-block;
@@ -7595,7 +7585,7 @@ body.offcanvas-open {
 
 .footer-area .about-widget .footer-logo {
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {

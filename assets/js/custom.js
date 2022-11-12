@@ -341,7 +341,7 @@
             formMessages.append(data.responseText);
           } else {
             $(formMessages).text(
-              "Oops! An error occurred and your message could not be sent."
+              "Oops! Aconteceu algo de errado e sua mensagem não foi enviada."
             );
           }
         });
