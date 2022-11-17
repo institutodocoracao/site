@@ -338,33 +338,31 @@
                     <p>Estamos prontos para te ajudar</p>
                     <h2 class="title">Marque uma <span>Consulta</span></h2>
                   </div>
-                  <form id="contact-form" action="#" method="post">
+
+                  <!-- Contact Form -->
+                  <form action="https://formsubmit.co/hebertdev82@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="Novo e-mail do site">
                     <div class="row">
-                      <div class="col-md-3">
+                      <div class="col-md-4">
                         <div class="form-group">
-                          <input class="form-control" type="text" name="con_name" placeholder="Seu nome completo..." />
+                          <input class="form-control" type="text" name="Nome" placeholder="Seu nome completo..." />
                         </div>
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-4">
                         <div class="form-group">
-                          <input class="form-control" type="email" name="con_email"
+                          <input class="form-control" type="email" name="E-mail"
                             placeholder="Seu melhor e-mail..." />
                         </div>
                       </div>
-                      <div class="col-md-3">
+                      <div class="col-md-4">
                         <div class="form-group">
-                          <input class="form-control" type="text" name="con_phone" placeholder="Seu telefone" />
+                          <input class="form-control" type="text" name="Telefone" placeholder="Seu telefone" />
                         </div>
                       </div>
-                      <div class="col-md-3">
-                        <div class="form-group datepicker-group">
-                          <label for="datepicker" class="form-label icon icofont-calendar"></label>
-                          <input class="form-control" id="datepicker" type="text" name="con_date" placeholder="Data" />
-                        </div>
-                      </div>
+                      <input type="hidden" name="_next" value="https://site-institutodocoracao.vercel.app/obrigado.html">
                       <div class="col-md-12">
                         <div class="form-group mb-0">
-                          <textarea name="con_message" rows="7" placeholder="Como podemos te ajudar?"></textarea>
+                          <textarea name="Mensagem" rows="7" placeholder="Como podemos te ajudar?"></textarea>
                         </div>
                       </div>
                       <div class="col-md-12">
@@ -376,6 +374,7 @@
                       </div>
                     </div>
                   </form>
+                  <!-- ./Contact Form -->
                 </div>
                 <div class="form-message"></div>
               </div>
