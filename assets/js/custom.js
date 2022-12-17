@@ -128,6 +128,10 @@
         el: ".swiper-pagination",
         clickable: true,
       },
+      navigation: {
+        nextEl: ".team-slider-container .team-button-next",
+        prevEl: ".team-slider-container .team-button-prev",
+      },
       breakpoints: {
         1200: {
           slidesPerView: 3,

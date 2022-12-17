@@ -3830,19 +3830,26 @@ body.offcanvas-open {
   margin-bottom: 0;
 }
 
+.about-pics {
+  margin-bottom: 2em;
+}
+
 .static-media {
   padding-top: 90px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 575px) {
   .static-media {
     padding-top: 80px;
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .static-media {
     padding-top: 80px;
+    text-align: center;
   }
 }
 
@@ -4268,6 +4275,20 @@ body.offcanvas-open {
   background-color: #8f1b1b;
   height: 17px;
   width: 17px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.team-button-next, .team-button-prev {
+  color: #8f1b1b;
+  font-size: 40px;
+  transition: all 0.3s;
+  display: flex;
 }
 
 .gallery-item .thumb {
@@ -7537,7 +7558,6 @@ body.offcanvas-open {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: -0.522px;
-  margin: 15px 0 70px;
   text-transform: uppercase;
 }
 
@@ -7869,3 +7889,24 @@ body.offcanvas-open {
   font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* /////////////// */
+/* Copyright Style */
+.susicopy {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.65em;
+}
+
+.susicopy a {
+  color: white;
+  font-size: 0.8em;
+}
+
+.susicopy a:hover {
+  color: rgba(251, 255, 199, 1);
+  transition: all 0.3s;
+}
