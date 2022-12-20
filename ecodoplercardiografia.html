@@ -322,9 +322,12 @@
               <h4 class="widget-title line-bottom">Newsletter</h4>
               <div class="widget-newsletter">
                 <p>Cadastre-se em nossa newsletter e fique por dentro das novidades</p>
-                <form class="newsletter-form input-btn-group">
-                  <input class="form-control" type="text" placeholder="Seu melhor e-mail" />
-                  <button class="btn btn-theme" type="button">
+                <form class="newsletter-form input-btn-group" action="https://formspree.io/f/mlekrnwb"
+                method="POST">
+                  <input type="hidden" name="_subject" value="Novo e-mail do site">
+                  <input type="hidden" name="_language" value="pt-BR" />
+                  <input class="form-control" type="text" name="email" placeholder="Seu melhor e-mail" />
+                  <button class="btn btn-theme" type="submit">
                     <i class="icofont-long-arrow-right"></i>
                   </button>
                 </form>
@@ -379,27 +382,27 @@
             <li class="active">
               <a href="#"><span class="menu-text">Especialidades</span></a>
               <ul class="offcanvas-submenu">
-                <li><a href="#">Clínica Médica</a></li>
-                <li><a href="#">Ergometria/Teste Ergométrico</a></li>
-                <li><a href="#">Arritmologia/Marca Passo</a></li>
-                <li><a href="#">Cardiologia do Esporte</a></li>
-                <li><a href="#">Ecodoplercardiografia</a></li>
-                <li><a href="#">Hemodinâmica</a></li>
+                <li><a href="clinica-medica.html">Clínica Médica</a></li>
+                <li><a href="ergometria.html">Ergometria/Teste Ergométrico</a></li>
+                <li><a href="arritmologia.html">Arritmologia/Marca Passo</a></li>
+                <li><a href="cardiologia-do-esporte.html">Cardiologia do Esporte</a></li>
+                <li><a href="ecodoplercardiografia.html">Ecodoplercardiografia</a></li>
+                <li><a href="hemodinamica.html">Hemodinâmica</a></li>
               </ul>
             </li>
 
             <li>
               <a href="#"><span class="menu-text">Exames</span></a>
               <ul class="offcanvas-submenu">
-                <li><a href="#">Eletrocardiografia</a></li>
-                <li><a href="#">Ecocardiografia</a></li>
-                <li><a href="#">Houter 24h</a></li>
-                <li><a href="#">Mapa 24h</a></li>
-                <li><a href="#">Teste Ergométrico Computadorizado</a></li>
-                <li><a href="#">Avaliação de Marca Passo</a></li>
-                <li><a href="#">Doppler de Carótida</a></li>
-                <li><a href="#">Cateterismo</a></li>
-                <li><a href="#">Consultas e Check-Up</a></li>
+                <li><a href="eletrocardiografia.html">Eletrocardiografia</a></li>
+                <li><a href="ecocardiografia.html">Ecocardiografia</a></li>
+                <li><a href="houter-24h.html">Houter 24h</a></li>
+                <li><a href="mapa-24h.html">Mapa 24h</a></li>
+                <li><a href="teste-ergometrico-computadorizado.html">Teste Ergométrico Computadorizado</a></li>
+                <li><a href="avaliacao-de-marca-passo.html">Avaliação de Marca Passo</a></li>
+                <li><a href="doppler-de-carotida.html">Doppler de Carótida</a></li>
+                <li><a href="cateterismo.html">Cateterismo</a></li>
+                <li><a href="consultas-e-check-up.html">Consultas e Check-Up</a></li>
               </ul>
             </li>
 
@@ -426,7 +429,7 @@
             <span class="media-icon"><i class="icofont-ui-call"></i></span>
             <div class="media-content">
               <span class="media-sub-heading">contato</span>
-              <a class="media-heading" href="#"> (35) 3415-1656</a> |
+              <a class="media-heading" href="tel: (35) 3415-1656"> (35) 3415-1656</a> |
               <a class="media-heading" href="tel: (35) 9 8816-8932"> (35) 9 8816-8932</a>
             </div>
           </li>
